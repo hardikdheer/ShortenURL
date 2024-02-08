@@ -72,15 +72,11 @@
         <input type="text" id="email" name="email" required /><br />
         <label for="password">Enter your Password</label>
         <input type="password" id="password" name="password" required /><br />
-        <button type="submit" onclick="redirectToLoginPage()">Sign Up</button><br />
+        <button type="submit" onsubmit="window.location.href='/login'">Sign Up</button><br />
         <h2>Already Login??</h2>
         <button type="button" onclick="window.location.href='/login'">Go to Login Page</button>
     </form>
-    <script>
-        function redirectToLoginPage() {
-            window.location.href = "/login"; // Redirect to login page
-        }
-    </script>
+   
      
         
 </body>
