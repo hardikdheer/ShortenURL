@@ -9,7 +9,7 @@ async function handleUserSignUp(req, res) {
         email,
         password,
     });
-    return res.redirect("/")
+    return res.redirect("/signup")
 }
 
 async function handleUserLogin(req, res) {
